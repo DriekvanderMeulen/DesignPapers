@@ -1,23 +1,43 @@
 /*  Header Gradient*/
 .gradient1{
     width: 100%;
-    height: 80vh;
-    position: absolute;
-    top: 20vh;
+    height: 100vh;
+    position: fixed;
+    top: 10vh;
 
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 80%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+} 
+
+.gradient2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 10vh;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.gradient3{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 10vh;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 80% rgba(0,0,0,0) 100%);
 }
 
 /*  1st white box Gradient*/
-.gradient2{
+.box4{
     width: 100%;
     height: 30vh;
     position: absolute;
     top: 150vh;
 
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 80%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, #3B5249 0%, rgba(0,0,0,1) 100%);
 }
 
 /*  2nd white box Gradient*/
@@ -28,5 +48,5 @@
     top: 330vh;
 
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 80%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, #A4B494 0%, #3B5249 100%);
 }

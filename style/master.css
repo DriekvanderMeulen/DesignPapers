@@ -1,34 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://use.typekit.net/wqw2tpu.css");
+/* Typekit info
+
+Base tags
+H1  HWT Mardell         regular       400 normal
+H2  Proxima Nova        Bold          700 normal
+H3  Proxima Nova        Bold Italic   700 italic
+H4  Proxima Nova        italic        400 italic
+H5  Essonnes Display    bold          700 normal
+H6  Essonnes Display    regular       400 normal
+P   Proxima Nova
+
+Proxima Nova
+Use functional stuff
+font-family: proxima-nova, sans-serif;
+Regular: 400 normal
+Italic: 400 italic
+Bold: 700 normal
+Bold Italic: 700 italic
+
+Essonnes Display
+font-family: essonnes-display, serif;
+Use for fancy stuff
+Display Regular: 400 normal
+Display Italic: 400 italic
+Display Bold: 700 normal
+Display Bold Italic: 700 italic
+
+HWT Mardell
+Use for Title, not very readable for people with disabilities
+font-family: hwt-mardell, sans-serif;
+Regular: 400 normal
+*/
 
 /* Typography css */
+
+:root {
+  --primary:      #A4B494;
+  --secondary:    #BEC5AD; 
+  --tertiary:     #3B5249;
+  --mono1:        #ffffff;
+  --mono2:        #000000;
+}
+
 h1{
     display: block;
-    font-size: 2em;
+    font-size: 10em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
+
+    font-family: hwt-mardell, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--mono2);
 }
 
 h2{
     display: block;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
+
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--mono2);   
 }
 
 h3 { 
     display: block;
-    font-size: 1.17em;
+    font-size: 2em;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
+
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--mono2);
   }
 
 h4 { 
@@ -38,38 +91,58 @@ h4 {
     margin-bottom: 1.33em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
+
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--mono2);
 }
 
 h5 { 
     display: block;
-    font-size: .83em;
+    font-size: 2em;
     margin-top: 1.67em;
     margin-bottom: 1.67em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
+
+    font-family: essonnes-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--mono2);
   }
 
 h6 { 
     display: block;
-    font-size: .67em;
+    font-size: 1em;
     margin-top: 2.33em;
     margin-bottom: 2.33em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
+
+    font-family: essonnes-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--mono2);
   }
 
   p {
     display: block;
+    font-size: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
+
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--mono2);
   }
 
-/* Body: css */
-body{
 
+  
+  body{
+    background-color: var(--mono2);
+    color: var(--mono1);
   }

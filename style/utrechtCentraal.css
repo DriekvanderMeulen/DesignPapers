@@ -1,0 +1,20 @@
+/*  reset stylesheet*/
+@import "reset.css";
+/* Fonts and stuff*/
+@import "master.css";
+
+/*  box division*/
+@import "boxes.css";
+
+/*  main styling*/
+@import "main.css";
+/*  header and navbar*/
+@import "header.css";
+/*  featured article*/
+@import "featured.css";
+/*  dummy article index*/
+@import "articleIndex.css";
+/*  footer*/
+@import "footer.css";
+/*  gradient*/
+@import "gradient.css";

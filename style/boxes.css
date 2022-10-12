@@ -1,7 +1,10 @@
+/* Import master*/
+@import "master.css";
+
 /* Back Image */
 .box0{
   width: 100vw;
-  position: fixed;
+  position: absolute;
   top: 0vh;
 }
 
@@ -9,21 +12,22 @@
 .box1{
     width: 100%;
     height: 100vh;
-    position: relative;
+    position: fixed;
     top: 0vh;
 }
 
 /* Navbar */
 .box2{
+    background-color: var(--mono2);
     width: 100%;
-    height: 20vh;
-    position: absolute;
+    height: 10vh;
+    position: fixed;
     top: 0;
 }
 
 /* Black Box */
 .box3{
-    background-color: black;
+    background-color: var(--mono2);
     width: 100%;
     height: 50vh;
     position: absolute;
@@ -36,7 +40,7 @@
     height: 30vh;
     position: absolute;
     top: 150vh;
-    background-color: white;
+    background-color: var(--mono1);
 }
 
 /* Main Article */
@@ -45,7 +49,7 @@
     height: 150vh;
     position: absolute;
     top: 180vh;
-    background-color: white;
+    background-color: var(--mono1);
 }
 
 /*Empty Space 2*/
@@ -57,20 +61,20 @@
 }
 /* Navigation Section */
 .box7{
-    background-color: pink;
+    background-color: var(--primary);
     width: 100%;
-    height: 150vh;
+    height: 190vh;
     position: absolute;
     top: 360vh;
 }
 
 /* Footer */
 .box8{
-    background-color: brown;
+    background-color: var(--tertiary);
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     position: absolute;
-    top: 510vh;
+    top: 550vh;
 }
 
 .backImage{
