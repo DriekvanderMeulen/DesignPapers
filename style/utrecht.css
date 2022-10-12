@@ -1,0 +1,12 @@
+/*  reset stylesheet*/
+@import "reset.css";
+/*  box division*/
+@import "boxes.css";
+/*  un reset*/
+@import "master.css";
+/*  main styling*/
+@import "main.css";
+/*  header and navbar*/
+@import "header.css";
+/*  gradient*/
+@import "gradient.css";

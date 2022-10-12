@@ -1,0 +1,65 @@
+.box2 nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box2 nav ul li{
+    float: right;
+    padding-right: 4vw;
+    padding-top: 8vh;
+}
+
+.box2 nav ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    color: white;
+}
+.box2 nav ul li a:hover {
+    color: blue;
+  }
+
+.box2 nav ul li a:active {
+    color: red;
+  }
+
+.box2 nav ul li a:visited {
+    color: green;
+  }
+
+.box2 nav ul li a:link {
+    color: yellow;
+  }
+
+.box2 img{
+    float: left;
+    padding-left: 4vw;
+    padding-top: 4vh;
+    max-width: 10vw;
+}
+
+.box1 .headerText h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box1 .headerText p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box1 .headerImage{
+    width: 100vw;
+    position: relative;
+    top: 0vh;
+    filter: grayscale(100%);
+}

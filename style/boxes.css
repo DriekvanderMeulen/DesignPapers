@@ -1,0 +1,79 @@
+/* Back Image */
+.box0{
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+}
+
+/* Header */
+.box1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0vh;
+}
+
+/* Navbar */
+.box2{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+}
+
+/* Black Box */
+.box3{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 100vh;
+}
+
+/*Empty Space 1*/
+.box4{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 150vh;
+    background-color: white;
+}
+
+/* Main Article */
+.box5{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 180vh;
+    background-color: white;
+}
+
+/*Empty Space 2*/
+.box6{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 330vh;
+}
+/* Navigation Section */
+.box7{
+    background-color: pink;
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 360vh;
+}
+
+/* Footer */
+.box8{
+    background-color: brown;
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 510vh;
+}
+
+.backImage{
+  width: 100%;
+  height: 100vh;
+}
