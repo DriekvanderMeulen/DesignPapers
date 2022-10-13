@@ -1,6 +1,7 @@
 .box6 h1{
     text-align: center;
     color: var(--secondary);
+    -webkit-text-stroke: 0.02em var(--tertiary);
 }
 
 .box7 .leftline{
@@ -23,11 +24,47 @@
     background-color: var(--mono2);
 }
 
+.box7 .kunstbox{
+    top: 5vh;
+    left: 12.5vw;
+}
+
+.box7 .ontwerpbox{
+    top: 5vh;
+    left: 32.5vw;
+}
+
+.box7 .technologiebox{
+    top: 5vh;
+    right: 12.5vw;
+}
+
+.box7 .ethiekbox{
+    top: 5vh;
+    right: 32.5vw;
+}
+.box7 .subjectbox{
+    margin: auto;
+    margin-bottom: 10vh;
+    position: absolute;
+    width: 15vw;
+    height: 10vh;
+    background-color: var(--secondary);
+    border: 1vh solid var(--tertiary);
+}
+.box7 .subjectbox h1{
+    margin: auto 0;
+    margin-top: 3vh;
+    text-align: center;
+    color: var(--tertiary);
+    font-size: 1.8em;
+}
+
 .box7 .primarybox {
     margin: auto;
     margin-bottom: 10vh;
     position: relative;
-    top: 15vh;
+    top: 20vh;
     width: 60vw;
     height: 30vh;
     background-color: var(--tertiary);
@@ -46,11 +83,11 @@
 .box7 .primarybox .secondarybox h2{
     margin-top: 1vh;
     text-align: left;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .box7 .primarybox .secondarybox p{
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: left
 }
 

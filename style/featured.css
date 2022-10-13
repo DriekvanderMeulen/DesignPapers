@@ -53,17 +53,17 @@
 
 .box5 .primarybox .secondarybox h2{
     text-align: left;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .box5 .primarybox .secondarybox p{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: left
 }
 
 .box5 .primarybox .secondarybox img{
     position: relative;
-    width: 40vw;
+    width: 35vw;
     border: 1vh solid var(--tertiary);
 }   
 
@@ -72,7 +72,7 @@
     position: absolute;
     margin: auto;
     right: 1vw;
-    font-size: 7em;
+    font-size: 4em;
 }
 
 .box5 .primarybox .secondarybox h1 a{
