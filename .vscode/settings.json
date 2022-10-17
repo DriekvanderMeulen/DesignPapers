@@ -1,0 +1,9 @@
+{
+    "workbench.settings.openDefaultSettings": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.sortImports": true
+    },
+    "editor.formatOnSave": true
+}
