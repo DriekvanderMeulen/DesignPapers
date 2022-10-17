@@ -1,0 +1,57 @@
+/* Import master*/
+@import "master.css";
+
+.mainTitle{
+
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: hwt-mardell, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-text-stroke: 0.02em var(--mono1);
+    color: var(--primary);
+}
+
+.featuredTitle{
+
+}
+
+.
+
+
+.mainSubText{
+    font-size: 2em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 700;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--mono1);
+    -webkit-text-stroke: 0.03em var(--mono2);
+}
+p {
+    display: block;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--mono2);
+  }

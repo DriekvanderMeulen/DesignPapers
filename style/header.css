@@ -2,20 +2,20 @@
 @import "master.css";
 
 /*Navbar*/
-.box2 nav ul{
+.box2  ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.box2 nav ul li{
+.box2  ul li{
     float: right;
     padding-right: 2vw;
     margin-top: 1vh;
 }
 
-.box2 nav ul li a{
+.box2  ul li a{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -24,11 +24,11 @@
     color: var(--primary);
 }
 
-.box2 nav ul li a:hover {
+.box2  ul li a:hover {
     color: var(--tertiary);
   }
 
-.box2 nav ul li a:link {
+.box2  ul li a:link {
     color: var(--primary);
   }
 

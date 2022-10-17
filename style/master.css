@@ -42,19 +42,6 @@ Regular: 400 normal
   --mono2:        #000000;
 }
 
-h1{
-    display: block;
-    font-size: 8em ;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-
-    font-family: hwt-mardell, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--mono2);
-}
 
 h2{
     display: block;
@@ -139,8 +126,6 @@ h6 {
     font-style: normal;
     color: var(--mono2);
   }
-
-
   
   body{
     background-color: var(--mono2);

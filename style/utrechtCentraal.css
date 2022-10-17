@@ -6,8 +6,7 @@
 /*  box division*/
 @import "boxes.css";
 
-/*  main styling*/
-@import "main.css";
+
 /*  header and navbar*/
 @import "header.css";
 /*  featured article*/
@@ -18,3 +17,6 @@
 @import "footer.css";
 /*  gradient*/
 @import "gradient.css";
+
+/*  typography styling*/
+@import "typography.css";
