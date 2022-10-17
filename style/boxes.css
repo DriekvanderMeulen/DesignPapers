@@ -2,82 +2,82 @@
 @import "master.css";
 
 /* Back Image */
-.box0{
+.box0 {
   width: 100vw;
   position: absolute;
   top: 0vh;
 }
 
 /* Header */
-.box1{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0vh;
+.box1 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0vh;
 }
 
 /* Navbar */
-.box2{
-    background-color: var(--mono2);
-    width: 100%;
-    height: 10vh;
-    position: fixed;
-    top: 0;
+.box2 {
+  background-color: var(--mono2);
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  top: 0;
 }
 
 /* Black Box */
-.box3{
-    background-color: var(--mono2);
-    width: 100%;
-    height: 50vh;
-    position: absolute;
-    top: 100vh;
+.box3 {
+  background-color: var(--mono2);
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  top: 100vh;
 }
 
 /*Empty Space 1*/
-.box4{
-    width: 100%;
-    height: 30vh;
-    position: absolute;
-    top: 150vh;
-    background-color: var(--mono1);
+.box4 {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  top: 150vh;
+  background-color: var(--mono1);
 }
 
 /* Main Article */
-.box5{
-    width: 100%;
-    height: 150vh;
-    position: absolute;
-    top: 180vh;
-    background-color: var(--mono1);
+.box5 {
+  width: 100%;
+  height: 150vh;
+  position: absolute;
+  top: 180vh;
+  background-color: var(--mono1);
 }
 
 /*Empty Space 2*/
-.box6{
-    width: 100%;
-    height: 30vh;
-    position: absolute;
-    top: 330vh;
+.box6 {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  top: 330vh;
 }
 /* Navigation Section */
-.box7{
-    background-color: var(--primary);
-    width: 100%;
-    height: 190vh;
-    position: absolute;
-    top: 360vh;
+.box7 {
+  background-color: var(--primary);
+  width: 100%;
+  height: 190vh;
+  position: absolute;
+  top: 360vh;
 }
 
 /* Footer */
-.box8{
-    background-color: var(--tertiary);
-    width: 100%;
-    height: 10vh;
-    position: absolute;
-    top: 550vh;
+.box8 {
+  background-color: var(--tertiary);
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  top: 550vh;
 }
 
-.backImage{
+.backImage {
   width: 100%;
   height: 100vh;
 }
