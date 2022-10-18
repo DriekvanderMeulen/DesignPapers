@@ -1,78 +1,70 @@
-.box7 .leftline {
-  margin: auto;
+.box7 .articleContainer1 {
+  margin: 5vh 5vw 15vh 5vw;
+}
+
+.box7 .articleContainer1 img {
+  margin: 0 0 0 0;
+}
+
+.box7 .articleContainer1 h4 {
+  margin-bottom: 2vh;
+}
+
+.infoBlock1 {
   position: absolute;
-  top: 10vh;
-  left: 10vw;
-  width: 0.5vw;
-  height: 170vh;
-  background-color: var(--mono2);
+  width: 35vw;
+  height: 28vw;
+  top: 9vh;
+  left: 61vw;
 }
 
-.box7 .rightline {
-  margin: auto;
-  position: absolute;
-  top: 10vh;
-  right: 10vw;
-  width: 0.5vw;
-  height: 170vh;
-  background-color: var(--mono2);
-}
-
-.box7 .kunstbox {
-  top: 5vh;
-  left: 12.5vw;
-}
-
-.box7 .ontwerpbox {
-  top: 5vh;
-  left: 32.5vw;
-}
-
-.box7 .technologiebox {
-  top: 5vh;
-  right: 12.5vw;
-}
-
-.box7 .ethiekbox {
-  top: 5vh;
-  right: 32.5vw;
-}
-.box7 .subjectbox {
-  margin: auto;
-  margin-bottom: 10vh;
-  position: absolute;
-  width: 15vw;
-  height: 10vh;
-  background-color: var(--secondary);
-  border: 1vh solid var(--tertiary);
-}
-
-.box7 .primarybox {
-  margin: auto;
-  margin-bottom: 10vh;
-  position: relative;
-  top: 20vh;
-  width: 60vw;
-  height: 30vh;
-  background-color: var(--tertiary);
-}
-
-.box7 .primarybox .secondarybox {
-  margin: auto;
-  position: relative;
-  top: 1vh;
-  width: 57vw;
-  height: 24vh;
-  background-color: var(--secondary);
-  padding: 2vh;
-}
-
-.box7 .primarybox .secondarybox p {
-  font-size: 1em;
-  text-align: left;
-}
-
-.box7 .primarybox .secondarybox h6 a {
-  text-decoration: none;
+.infoBlock1 p {
+  font-size: 2em;
   color: var(--tertiary);
+}
+
+.box7 .articleContainer2 {
+  margin: 5vh 5vw 15vh 5vw;
+}
+
+.box7 .articleContainer2 img {
+  margin: 0 0 0 0;
+  float: right;
+}
+
+.box7 .articleContainer2 h4 {
+  margin-bottom: 2vh;
+  float: right;
+}
+
+.infoBlock2 {
+  position: absolute;
+  width: 35vw;
+  height: 28vw;
+  top: 96vh;
+  right: 61vw;
+}
+
+.infoBlock2 p {
+  font-size: 2em;
+  color: var(--tertiary);
+  text-align: right;
+}
+
+.otherArticleReadmoreText {
+  position: absolute;
+  left: 12vw;
+  top: 60vh;
+}
+
+.otherArticleReadmoreText {
+  position: absolute;
+  left: 12vw;
+  top: 60vh;
+}
+
+.readmore1 {
+  position: absolute;
+  left: 0vw;
+  top: 59vh;
 }

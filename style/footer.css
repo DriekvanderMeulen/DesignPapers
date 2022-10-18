@@ -1,8 +1,18 @@
 /*Navbar*/
 
 .box8 img {
-  max-width: 4vw;
-  display: block;
+  float: left;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  max-width: 5vw;
+}
+
+.box8 p {
+  float: left;
   margin: auto;
-  margin-top: 2vh;
+  padding-top: 2.5vh;
+  padding-left: 28vw;
+  font-size: 2em;
+  color: var(--primary);
+  font-family: hwt-mardell, sans-serif;
 }

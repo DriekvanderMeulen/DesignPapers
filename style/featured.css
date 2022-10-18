@@ -29,16 +29,16 @@
   width: 60vw;
   height: 120vh;
   background-color: var(--primary);
+  padding: 10vh 2vw 10vh 2vw;
 }
 
 .box5 .primarybox .secondarybox {
   margin: auto;
   position: relative;
-  top: 10vh;
   width: 50vw;
-  height: 100vh;
+  height: 110vh;
   background-color: var(--secondary);
-  padding: 3vh;
+  padding: 3vh 2vw 3vh 2vw;
 }
 
 .box5 .primarybox .secondarybox p {
@@ -48,8 +48,7 @@
 
 .box5 .primarybox .secondarybox img {
   position: relative;
-  width: 35vw;
-  border: 1vh solid var(--tertiary);
+  width: 45vw;
 }
 
 .box5 .primarybox .secondarybox h6 a {
