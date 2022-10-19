@@ -1,6 +1,6 @@
 /*  reset stylesheet*/
 @import "reset.css";
-/* Fonts and stuff*/
+/* body and imports*/
 @import "master.css";
 /*  box division*/
 @import "boxes.css";
