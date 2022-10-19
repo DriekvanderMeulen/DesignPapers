@@ -12,19 +12,19 @@
     justify-content: center;
     margin: 0;
     min-height: calc(100vh - 16px);
-    color: var(--mono1);
+    color: var(--mono2);
   }
   
   .header h1:before{
     content: attr(data-text);
     position: absolute;
-    background: var(--primary);
+    background: var(--mono1);
     -webkit-background-clip: text;
     color: transparent;
     background-size: 100% 90%;
     line-height: 0.9;
     clip-path: ellipse(1000px 1000px at -2.54% -9.25%);
-    animation: swing 10s infinite;
+    animation: swing 100s infinite;
     animation-direction: alternate;
   }
   
