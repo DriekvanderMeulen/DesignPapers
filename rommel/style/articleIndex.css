@@ -1,0 +1,70 @@
+.box7 .articleContainer1 {
+  margin: 5vh 68px 15vh 68px;
+}
+
+.box7 .articleContainer1 img {
+  margin: 0 0 0 0;
+}
+
+.box7 .articleContainer1 h4 {
+  margin-bottom: 2vh;
+}
+
+.infoBlock1 {
+  position: absolute;
+  width: 478px;
+  height: 382px;
+  top: 9vh;
+  left: 833px;
+}
+
+.infoBlock1 p {
+  font-size: 2em;
+  color: var(--tertiary);
+}
+
+.box7 .articleContainer2 {
+  margin: 5vh 68px 15vh 68px;
+}
+
+.box7 .articleContainer2 img {
+  margin: 0 0 0 0;
+  float: right;
+}
+
+.box7 .articleContainer2 h4 {
+  margin-bottom: 2vh;
+  float: right;
+}
+
+.infoBlock2 {
+  position: absolute;
+  width: 478px;
+  height: 382px;
+  top: 96vh;
+  right: 833px;
+}
+
+.infoBlock2 p {
+  font-size: 2em;
+  color: var(--tertiary);
+  text-align: right;
+}
+
+.otherArticleReadmoreText {
+  position: absolute;
+  left: 164px;
+  top: 60vh;
+}
+
+.otherArticleReadmoreText {
+  position: absolute;
+  left: 164px;
+  top: 60vh;
+}
+
+.readmore1 {
+  position: absolute;
+  left: 0;
+  top: 59vh;
+}

@@ -1,0 +1,46 @@
+@import url(master.css);
+
+/*Navbar*/
+
+.navbar{
+    background-color: var(--mono2);
+    width: 1366px;
+    height: 10vh;
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    margin-top: 12px;
+    margin-right: 15px;
+  }
+  
+  .navbar ul li {
+    float: right;
+    padding-right: 27px;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    font-size: 0.8em;
+    color: var(--primary);
+  }
+  
+  .navbar ul li a:hover {
+    color: var(--tertiary);
+  }
+  
+  .navbar ul li a:link {
+    color: var(--primary);
+  }
+  
+  .navbar a img {
+    max-width: 68px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+  }
