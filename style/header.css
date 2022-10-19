@@ -11,7 +11,7 @@
 
 .box2 ul li {
   float: right;
-  padding-right: 2vw;
+  padding-right: 27px;
   margin-top: 1vh;
 }
 
@@ -34,15 +34,15 @@
 
 .box2 img {
   float: left;
-  padding-left: 2vw;
+  padding-left: 27px;
   padding-top: 2vh;
-  max-width: 5vw;
+  max-width: 68px;
 }
 
 /*Header*/
 
 .box1 .headerImage {
-  width: 100vw;
+  width: 100%;
   position: relative;
   top: 0vh;
   filter: blur(0px);

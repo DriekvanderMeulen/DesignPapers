@@ -1,6 +1,6 @@
 /*  Header Gradient*/
 .gradient1 {
-  width: 100%;
+  width: 1366px;
   height: 100vh;
   position: fixed;
   top: 10vh;
@@ -10,7 +10,7 @@
 }
 
 .gradient2 {
-  width: 100%;
+  width: 1366px;
   height: 100vh;
   position: absolute;
   top: 10vh;
@@ -20,7 +20,7 @@
 }
 
 .gradient3 {
-  width: 100%;
+  width: 1366px;
   height: 100vh;
   position: absolute;
   top: 10vh;
@@ -35,7 +35,7 @@
 
 /*  1st white box Gradient*/
 .box4 {
-  width: 100%;
+  width: 1366px;
   height: 30vh;
   position: absolute;
   top: 150vh;
@@ -46,7 +46,7 @@
 
 /*  2nd white box Gradient*/
 .gradient3 {
-  width: 100%;
+  width: 1366px;
   height: 30vh;
   position: absolute;
   top: 330vh;

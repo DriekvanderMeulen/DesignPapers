@@ -2,16 +2,16 @@
 
 .box8 img {
   float: left;
-  padding-left: 2vw;
+  padding-left: 27px;
   padding-top: 2vh;
-  max-width: 5vw;
+  max-width: 68px;
 }
 
 .box8 p {
   float: left;
   margin: auto;
   padding-top: 2.5vh;
-  padding-left: 28vw;
+  padding-left: 382px;
   font-size: 2em;
   color: var(--primary);
   font-family: hwt-mardell, sans-serif;

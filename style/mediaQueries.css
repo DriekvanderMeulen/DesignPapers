@@ -13,3 +13,10 @@ and (min-width : 1824px) {
         font-size: 20px;
     }
 }
+
+.alles {
+    background-color: var(--mono2);
+    color: var(--mono1);
+    max-width: 1366px;
+    margin: auto;
+  }

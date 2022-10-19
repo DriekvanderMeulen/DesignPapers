@@ -1,5 +1,5 @@
 .box7 .articleContainer1 {
-  margin: 5vh 5vw 15vh 5vw;
+  margin: 5vh 68px 15vh 68px;
 }
 
 .box7 .articleContainer1 img {
@@ -12,10 +12,10 @@
 
 .infoBlock1 {
   position: absolute;
-  width: 35vw;
-  height: 28vw;
+  width: 478px;
+  height: 382px;
   top: 9vh;
-  left: 61vw;
+  left: 833px;
 }
 
 .infoBlock1 p {
@@ -24,7 +24,7 @@
 }
 
 .box7 .articleContainer2 {
-  margin: 5vh 5vw 15vh 5vw;
+  margin: 5vh 68px 15vh 68px;
 }
 
 .box7 .articleContainer2 img {
@@ -39,10 +39,10 @@
 
 .infoBlock2 {
   position: absolute;
-  width: 35vw;
-  height: 28vw;
+  width: 478px;
+  height: 382px;
   top: 96vh;
-  right: 61vw;
+  right: 833px;
 }
 
 .infoBlock2 p {
@@ -53,18 +53,18 @@
 
 .otherArticleReadmoreText {
   position: absolute;
-  left: 12vw;
+  left: 164px;
   top: 60vh;
 }
 
 .otherArticleReadmoreText {
   position: absolute;
-  left: 12vw;
+  left: 164px;
   top: 60vh;
 }
 
 .readmore1 {
   position: absolute;
-  left: 0vw;
+  left: 0;
   top: 59vh;
 }

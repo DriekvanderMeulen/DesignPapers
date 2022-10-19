@@ -7,13 +7,3 @@
   --mono1: #ffffff;
   --mono2: #000000;
 }
-
-body {
-  background-color: var(--mono2);
-  color: var(--mono1);
-}
-
-@viewport{
-  max-width: 1366px;
-  max-height: 768px;
-}
