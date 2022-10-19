@@ -5,55 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/utrecht.css">
+    <script src="https://kit.fontawesome.com/78cbe12d70.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <!--The Navigation bar, logo on the left, links on the right-->
-        <!--Navigation Bar-->
-        <div class="navbar">
-          <!--Logo-->
-          <a href=""><img src="images/logo.svg" alt="Logo" /></a>
-          <ul>
-            <!--Attention the order is in reverse-->
-            <li>
-              <h3 class="navText"><a href="#">Ethiek</a></h3>
-            </li>
-            <li>
-              <h3 class="navText"><a href="#">Technologie</a></h3>
-            </li>
-            <li>
-              <h3 class="navText"><a href="#">Ontwerp</a></h3>
-            </li>
-            <li>
-              <h3 class="navText"><a href="#">Kunst</a></h3>
-            </li>
-          </ul>
-        </div>
-    </nav>
     <header>
-        <!--The 1st 100vh of the page, Background image, Gradients, Title and subtext-->
-        <!--Background Image of the header-->
-          <img
-            class="backgroundImage"
-            src="images/placeholder2.jpg"
-            alt="Header Image"
-          />  
-        <!--Gradient 1&2-->
-        <div class="gradient1"></div>
-        <div class="gradient2"></div>
-  
-        <!--Header text-->
-        <div class="box1">
-          <!--Header Text-->
-          <div class="headerText">
-            <h1 class="mainTitle">The Design Papers</h1>
-            <p class="mainSubText">
-              Wij zijn de Design Papers, het blad voor designers door designers,
-              lees op deze website de digitale versie van ons maandelijkse blad.
-            </p>
-          </div>
+        <nav>
+            <img src="style/images/logo.svg" alt="Logo" />
+            <ul>
+            <li>
+                <p class="navText"><a href="#">Ethiek</a></p>
+            </li>
+            <li>
+                <p class="navText"><a href="#">Technologie</a></p>
+            </li>
+            <li>
+                <p class="navText"><a href="#">Ontwerp</a></p>
+            </li>
+            <li>
+                <p class="navText"><a href="#">Kunst</a></p>
+            </li>
+            </ul>
+        </nav>
+        <div class="headerGradient"></div>
+        <div class="header">
+            <h1 data-text="The Design Papers">The Design Papers</h1>
         </div>
-      </header>
+    </header>
+    <main>
+        <div class="featured">
+            <h2>Featured Article</h2>
+            <div class="infobox">
+                <ul>
+                    <li class="author"><i class="fa-solid fa-at"></i> Driek van der Meulen</li>
+                    <li class="time"><i class="fa-regular fa-clock"></i> 10 minute read</li>
+                    <li class="category"><i class="fa-regular fa-bookmark"></i> Technologie, Ethiek</li>
+                </ul>
+            </div>
+            <article>
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum nulla provident maiores voluptatibus, esse voluptates! Expedita et assumenda totam ut voluptates debitis libero dolorum iure blanditiis laborum veniam unde similique at illum corporis eaque culpa natus dignissimos magni a dolores, accusamus odit? Possimus perspiciatis, voluptatum harum minus consectetur quis?</p>
+                <img src="style/images/tikTokHeader.jpg" alt="">
+            </article>
+        </div>
+    </main>
 </body>
 </html>

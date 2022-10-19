@@ -1,0 +1,52 @@
+@import url(master.css);
+
+.featured h2{
+    text-align: center;
+    font-size: 11vw;
+    margin-top: 10%;
+    color: var(--mono2);
+    -webkit-text-stroke: .2vw var(--mono1); 
+}
+
+.featured article{
+    width: 60%;
+    margin: auto;
+    border: 1px solid  var(--mono1);
+    margin-top: 80px;
+    padding: 20px;
+    background: var(--mono2);
+}
+.featured article h4{
+    font-size: 3vw;
+    color: var(--mono1);
+    margin-bottom: 20px;
+}
+
+.featured article p{
+    font-size: 2vw;
+    color: var(--mono1);
+    margin-bottom: 20px;
+}
+
+.featured article img{
+    max-width: 100%;
+}
+
+.featured .infobox{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 80px;
+    border: 1px solid  var(--mono1);
+    padding: 20px;
+    background: var(--mono2);
+    text-align: center;
+}
+
+.infobox ul li{
+    font-size: 1.5vw;
+    color: var(--mono1);
+    margin-bottom: 20px;
+    display: inline;
+    margin-right:10%;;
+}
+

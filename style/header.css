@@ -1,4 +1,68 @@
-.backgroundImage{
-    width: 1366px;
+@import url(master.css);
+
+header{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--mono2);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+nav ul li {
+    float: right;
+    padding-right: 3vw;
+    margin-top: 3vh;
+    height: 4vh;
+  }
+  
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    font-size: 1.5vw;
+    color: var(--mono1);
+  }
+  
+nav ul li a:hover {
+    color: var(--primary);
+  }
+  
+nav img {
+    float: left;
+    padding-left: 2.5vh;
+    padding-top: 2.5vh;
+    max-height: 5vh;
+  }
+
+.header{
     height: 90vh;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+}
+
+.header h1{
+    font-size: 12vw;
+    color: var(--mono1);
+    -webkit-text-stroke: .2vw var(--mono2); "
+}
+
+.headerGradient{
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    height: 90vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 1) 100%);
 }

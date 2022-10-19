@@ -7,3 +7,9 @@
   --mono1: #ffffff;
   --mono2: #000000;
 }
+
+body{
+    height: 500vh;
+    background-color: var(--mono2);
+    color: #ffffff;
+}
