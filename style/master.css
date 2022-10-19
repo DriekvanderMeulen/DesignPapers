@@ -11,6 +11,9 @@
 body {
   background-color: var(--mono2);
   color: var(--mono1);
-  width: 1366px;
-  height: 768px;
+}
+
+@viewport{
+  max-width: 1366px;
+  max-height: 768px;
 }
