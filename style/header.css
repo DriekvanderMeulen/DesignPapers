@@ -31,12 +31,13 @@ nav ul li a {
     text-align: center;
     text-decoration: none;
     margin: auto;
-    font-size: 1.5vw;
-    color: var(--mono1);
+    font-size: 2em;
+    color: var(--secondary);
+    font-weight: 450;
   }
   
 nav ul li a:hover {
-    color: var(--primary);
+    color: var(--quaternary);
   }
   
 nav img {
@@ -50,12 +51,6 @@ nav img {
     height: 90vh;
     background-image: url(images/header.jpg);
     background-size: cover;
-}
-
-.header h1{
-    font-size: 12vw;
-    color: var(--mono1);
-    -webkit-text-stroke: .2vw var(--mono2); "
 }
 
 .headerGradient{

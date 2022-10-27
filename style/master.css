@@ -1,11 +1,13 @@
 @import url("https://use.typekit.net/wqw2tpu.css");
 
 :root {
-  --primary: #a4b494;
-  --secondary: #bec5ad;
-  --tertiary: #3b5249;
+  --primary: rgba(151, 11, 191, 1);
+  --secondary: rgba(2, 63, 89, 1);
+  --tertiary: rgba(42, 239, 251, 1);
+  --quaternary: rgba(242, 226, 7, 1);
   --mono1: #ffffff;
   --mono2: #000000;
+  --transparant: rgba(0, 0, 0, 0.5);
 }
 
 body{
