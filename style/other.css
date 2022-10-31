@@ -22,7 +22,7 @@
     margin: 40px;
     margin-top: 80px;
     padding: 20px;
-    max-height:1000px ;
+    height:450px ;
 }
 
 .other .right{
@@ -34,13 +34,14 @@
     margin: 40px;
     margin-top: 80px;
     padding: 20px;
-    max-height: 1000px;
+    height: 450px;
 }
 
 .other  h4{
     font-size: 60px;
     color: var(--mono1);
     margin-bottom: 20px;
+    height: 100px;
 }
 
 .other  p{
@@ -53,11 +54,13 @@
     width: 500px;
     margin: auto;
     margin-top:20px ;
+    height: 300px;
 }
 
 .other  a{
     text-decoration: none;
     text-align: right;
+    margin-bottom: 0;
 }
 
 .other  a h6:hover{
