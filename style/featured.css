@@ -46,7 +46,7 @@
 
 
 .featured article a h6{
-    font-size: 130px;
+    font-size: 75px;
     color: var(--transparant);
     -webkit-text-stroke: 2px var(--mono1);
 }

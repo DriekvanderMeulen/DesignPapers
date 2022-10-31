@@ -9,9 +9,12 @@
   --mono2: #000000;
   --transparant: rgba(0, 0, 0, 0.5);
 }
-
 body{
-    width: 1366px;
+  background-color: white;
+  max-width: 100vw;
+}
+.body{
+   max-width: 1366px;
     margin: auto;
     height: 500vh;
     background-color: var(--mono2);
