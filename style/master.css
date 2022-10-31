@@ -11,6 +11,8 @@
 }
 
 body{
+    width: 1366px;
+    margin: auto;
     height: 500vh;
     background-color: var(--mono2);
     color: #ffffff;

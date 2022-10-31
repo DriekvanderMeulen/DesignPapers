@@ -1,26 +1,2 @@
 @import url(master.css);
-@-webkit-keyframes typing { from { width: 0; } }
 
-h1 { 
-	width: 17ch; 
-	width: 17ch;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 3s steps(17, end), blink-caret .5s step-end infinite alternate;
-}
-
-
-.header h1 { 
-	font: 180px bold;
-	width: 16.5em; 
-	width: 19.5ch;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 2s steps(17, end);
-    padding-top: 30vh;
-    color: var(--mono1);
-    -webkit-text-stroke: 3px var(--mono2);
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}

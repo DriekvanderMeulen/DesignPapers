@@ -2,7 +2,7 @@
 
 .featured h2{
     text-align: center;
-    font-size: 220px;
+    font-size: 180px;
     margin-top: 10%;
     color: var(--mono2);
     -webkit-text-stroke: 1px var(--mono1);
@@ -36,10 +36,7 @@
 
 .featured article a{
     text-decoration: none;
-    margin-bottom: 200px;
-    float: right;
-    position: relative;
-    top: 387px;
+    text-align: right;
 }
 
 .featured article a h6:hover{
@@ -65,10 +62,10 @@
 }
 
 .infobox ul li{
-    font-size: 30px;
+    font-size: 25px;
     color: var(--mono1);
     margin-bottom: 20px;
     display: inline;
-    margin-right:10%;;
+    padding: 40px;
 }
 
