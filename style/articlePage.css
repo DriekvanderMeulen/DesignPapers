@@ -1,0 +1,84 @@
+@import url(master.css);
+
+.headerArticle h1 { 
+    font: 100px bold;
+    max-width: 1366px;
+  padding-top: 10vh;
+    text-align: center;
+  color: var(--transparent);;
+  -webkit-text-stroke: 2px var(--mono2);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto
+}
+
+.headerArticle h2 { 
+    font: 60px extra-bold;
+    max-width: 1366px;
+  padding-top: 40vh;
+    text-align: center;
+  color: var(--mono1);;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: proxima-nova, sans-serif;
+}
+
+.headerArticle{
+    height: 95vh;
+    background-image: url(images/header/articleheader.png);
+    background-size: cover;
+    position: absolute;
+    top: 5vh;
+    width: 1366px;
+  }
+
+header .infobox{
+    margin: 0 auto;
+    width: 1326px;
+    position: absolute;
+    top: 70vh;
+    padding: 20px;
+    background: var(--transparent);
+    text-align: center;
+}
+
+header .infobox ul li{
+    font-size: 25px;
+    color: var(--mono1);
+    margin-bottom: 20px;
+    display: inline;
+    padding: 40px;
+}
+
+.articleBody{
+    width: 1326px;
+    overflow: hidden;
+    background-color: var(--mono2);
+    padding-top: 50px;
+    padding: 20px;
+}
+
+.articleBody h2{
+    font-size: 50px;
+    color: var(--secondary);
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.articleBody p{
+    font-size: 25px;
+    color: var(--mono1);
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.articleBody img{
+    padding-bottom: 50px;
+    width: 700px;
+    margin: auto;
+    display: block;
+    margin-right: 0;
+}

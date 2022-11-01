@@ -7,9 +7,11 @@ header{
 
 nav{
     max-width: 1366px;
-    height: 10vh;
+    height: 5vh;
     background-color: var(--mono2);
     z-index: 1;
+    position: fixed;
+    width: 1366px;
 }
 
 nav ul {
@@ -17,16 +19,13 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: absolute;
-    right: 50px;
   }
   
 nav ul li {
     float: right;
     padding-right: 30px;
-    margin-top: 25px;
-    height: 50px;
-  }
+    margin-top: 8px;
+}
   
 nav ul li a {
     display: block;
@@ -45,23 +44,17 @@ nav ul li a:hover {
 nav img {
     float: left;
     padding-left: 2.5vh;
-    padding-top: 2.5vh;
-    max-height: 5vh;
+    padding-top: 1vh;
+    max-height: 3vh;
   }
 
 .header{
     height: 90vh;
-    background-image: url(images/header.jpg);
+    background-image: url(images/header/header.jpg);
     background-size: cover;
-}
-
-.headerGradient{
     position: absolute;
     top: 10vh;
     width: 1366px;
-    height: 90vh;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 1) 100%);
 }
 
 .header h1 { 
