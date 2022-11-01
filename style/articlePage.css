@@ -66,6 +66,8 @@ header .infobox ul li{
     color: var(--secondary);
     text-align: left;
     padding-bottom: 20px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
 }
 
 .articleBody p{
