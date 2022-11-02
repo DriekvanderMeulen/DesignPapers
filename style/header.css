@@ -14,10 +14,6 @@ nav{
     width: 1366px;
 }
 
-nav a{
-  float: left;
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -51,6 +47,8 @@ nav img {
     padding-left: 2.5vh;
     padding-top: 1vh;
     max-height: 3vh;
+    position: absolute;
+    left: 2.5vh;
   }
 
 .header{
@@ -72,4 +70,9 @@ nav img {
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.navHome{
+  position: absolute;
+  left: 5vw;
 }
