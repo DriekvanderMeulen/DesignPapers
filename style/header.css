@@ -63,7 +63,7 @@ nav img {
 }
 
 .header h1 { 
-	font: 130px bold;
+	font: 130px extrabold proxima-nova, sans-serif;
   padding-top: 30vh;
 	text-align: center;
   color: var(--mono1);
@@ -72,6 +72,4 @@ nav img {
   left: 0;
   right: 0;
   margin: auto;
-  font-family: proxima-nova, sans-serif;
-
 }
