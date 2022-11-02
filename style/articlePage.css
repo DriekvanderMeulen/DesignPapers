@@ -64,7 +64,6 @@ header .infobox ul li{
 .articleBody h2{
     font-size: 50px;
     color: var(--secondary);
-    text-align: left;
     padding-bottom: 20px;
     font-family: proxima-nova, sans-serif;
     font-weight: 600;
@@ -73,14 +72,85 @@ header .infobox ul li{
 .articleBody p{
     font-size: 25px;
     color: var(--mono1);
-    text-align: left;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .articleBody img{
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     width: 700px;
     margin: auto;
-    display: block;
-    margin-right: 0;
+}
+
+.boxA p{
+  float: left;
+  max-width: 47%;
+  text-align: right;
+}
+
+.boxA img{
+  float: right;
+  max-width: 47%;
+}
+
+.boxB{
+  float: left;
+}
+
+.boxC img{
+  text-align: center;
+  width: 100%;
+}
+
+.boxD{
+  text-align: left;
+}
+
+.boxE{
+  float: left;
+  max-width: 47%;
+  text-align: right;
+}
+
+.boxF img{
+  float: right;
+  max-width: 48%;
+}
+
+.boxG{
+  text-align: left;
+}
+
+.boxH p{
+  float: left;
+  max-width: 48%;
+}
+
+.boxI p{
+  float: right;
+  max-width: 47%;
+  text-align: right;
+}
+
+.boxJ img{
+  width: 100%;
+  text-align: center;
+}
+
+.boxK{
+  text-align: left;
+}
+
+.boxL{
+  text-align: right;
+}
+
+.boxM{
+  text-align: right;
+  float: left;
+  max-width: 45%;
+}
+
+.boxN img{
+  float: right;
+  max-width: 45%;
 }
