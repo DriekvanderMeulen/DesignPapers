@@ -71,5 +71,7 @@ nav img {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto
+  margin: auto;
+  font-family: proxima-nova, sans-serif;
+
 }
