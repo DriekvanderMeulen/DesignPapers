@@ -80,6 +80,7 @@ header .infobox ul li{
     padding-bottom: 75px;
     width: 700px;
     margin: auto;
+    
 }
 
 .boxA p{
@@ -91,6 +92,7 @@ header .infobox ul li{
 .boxA img{
   float: right;
   max-width: 47%;
+  
 }
 
 .boxB{
@@ -108,27 +110,49 @@ header .infobox ul li{
 
 .boxE{
   float: left;
-  max-width: 47%;
+  max-width: 48%;
   text-align: right;
 }
 
 .boxF img{
   float: right;
   max-width: 48%;
+  padding-left: 4%;
+  object-fit: contain;
+}
+.container{
+  width: 100%;
+  overflow: hidden;
+}
+.boxG h2{
+  float: center;
 }
 
-.boxG{
+.boxG p{
+  float: left;
   text-align: left;
+  max-width: 80%;
 }
 
-.boxH p{
+.boxGH{
+  text-align: left;
+  width: 100%;
+  float: left;
+}
+
+.boxH{
+  text-align: left;
+  float: left;
+}
+
+.boxH {
   float: left;
   max-width: 48%;
 }
 
-.boxI p{
+.boxI {
   float: right;
-  max-width: 47%;
+  max-width: 48%;
   text-align: right;
 }
 
