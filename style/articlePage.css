@@ -86,12 +86,13 @@ header .infobox ul li{
 .boxA p{
   float: left;
   max-width: 47%;
-  text-align: right;
 }
 
 .boxA img{
   float: right;
   max-width: 47%;
+  max-height: 350px;
+  object-fit: contain;
   
 }
 
@@ -111,7 +112,6 @@ header .infobox ul li{
 .boxE{
   float: left;
   max-width: 48%;
-  text-align: right;
 }
 
 .boxF img{
@@ -153,7 +153,11 @@ header .infobox ul li{
 .boxI {
   float: right;
   max-width: 48%;
-  text-align: right;
+}
+
+.boxI img{
+  max-height: 400px;
+  object-fit: contain;
 }
 
 .boxJ img{
@@ -163,10 +167,6 @@ header .infobox ul li{
 
 .boxK{
   text-align: left;
-}
-
-.boxL{
-  text-align: right;
 }
 
 .boxM{
